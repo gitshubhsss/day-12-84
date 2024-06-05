@@ -1,0 +1,44 @@
+.main{
+    margin-top: 80PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.add-nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+input{
+    width: 80%;
+    padding: 0.4rem  0.5rem;
+}
+#addBtn{
+   padding: 0.2rem 1rem;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 0.9rem;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+@media (max-width:768px) {
+    .add-nav{
+        width: 80%;
+    }
+    .items{
+        width: 80%;
+    }
+    #add{
+        margin-left: 0.2rem;
+    }
+}
